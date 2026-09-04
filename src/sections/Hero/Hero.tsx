@@ -48,7 +48,7 @@ export default function Hero() {
           variants={fadeUp}
           className="mt-8 max-w-xl text-lg leading-relaxed text-[var(--color-muted)] sm:text-xl"
         >
-          Construo sistemas web e produtos digitais — do backend à interface,
+          Construo sistemas web e produtos digitais, do backend à interface,
           com atenção a performance, arquitetura e experiência de uso.
         </motion.p>
 
@@ -81,7 +81,7 @@ export default function Hero() {
 
           <div className="ml-1 flex items-center gap-4">
             <a
-              href={siteConfig.github}
+              href="https://github.com/antoniilucas"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -91,7 +91,7 @@ export default function Hero() {
               <Code2 size={18} />
             </a>
             <a
-              href={siteConfig.linkedin}
+              href="https://www.linkedin.com/in/antônio-lucas/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -101,7 +101,7 @@ export default function Hero() {
               <Briefcase size={18} />
             </a>
             <a
-              href={`mailto:${siteConfig.email}`}
+              href={`mailto:antoniilucasofc@gmail.com`}
               aria-label="Email"
               data-cursor="link"
               className="text-[var(--color-muted)] transition-colors hover:text-[var(--color-accent)]"

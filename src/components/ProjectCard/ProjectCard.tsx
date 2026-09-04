@@ -29,9 +29,14 @@ export default function ProjectCard({ project, onOpen, reversed = false }: Proje
           data-cursor-text="VIEW"
           className="relative block aspect-4/3 w-full overflow-hidden border border-[var(--color-line)] bg-[var(--color-bg-raised)] text-left"
         >
+          <img
+            src={project.image}
+            alt={`Preview of ${project.name}`}
+            className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
           <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
             <motion.span
-              className="font-display text-6xl font-black text-[var(--color-line)] transition-transform duration-500 group-hover:scale-110"
+              className="font-display text-6xl font-black text-white/70 transition-transform duration-500 group-hover:scale-110"
               aria-hidden="true"
             >
               {project.number}

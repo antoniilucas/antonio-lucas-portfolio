@@ -32,10 +32,7 @@ export default function About() {
               viewport={viewportOnce}
               className="mt-8 max-w-md text-base leading-relaxed text-[var(--color-muted)] sm:text-lg"
             >
-              Sou estudante de Ciência da Computação com foco em desenvolvimento
-              web. Trabalho na construção e evolução de interfaces, APIs e
-              sistemas, buscando equilíbrio entre experiência do usuário,
-              performance e qualidade de código.
+              Sou estudante de Ciência da Computação e desenvolvedor Full Stack, com foco na construção de aplicações web modernas, funcionais e escaláveis. Trabalho no desenvolvimento de interfaces, APIs e sistemas completos, buscando equilibrar experiência do usuário, performance e qualidade de código. Já tive experiência prática em projetos acadêmicos, profissionais e voluntariados, contribuindo no desenvolvimento e evolução de soluções reais e buscando sempre transformar ideias em aplicações funcionais e de qualidade.
             </motion.p>
 
             <motion.ul
@@ -45,7 +42,7 @@ export default function About() {
               viewport={viewportOnce}
               className="mt-10 flex flex-wrap gap-x-8 gap-y-3 font-mono text-sm text-[var(--color-ink)]"
             >
-              {['React', 'Node.js', 'Laravel', 'PostgreSQL', 'Docker'].map((item) => (
+              {['React', 'Node.js', 'TypeScript', 'PostgreSQL', 'Docker'].map((item) => (
                 <li key={item} className="flex items-center gap-2">
                   <span className="h-1 w-1 bg-[var(--color-accent)]" />
                   {item}

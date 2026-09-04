@@ -10,7 +10,7 @@ export interface ExperienceItem {
 export const experience: ExperienceItem[] = [
   {
     id: 'projeto-base',
-    period: '2024 — PRESENTE',
+    period: '2026 — PRESENTE',
     role: 'Desenvolvedor Web',
     org: 'Jornal A Borda',
     description:
@@ -19,16 +19,16 @@ export const experience: ExperienceItem[] = [
   },
   {
     id: 'freelance',
-    period: '2023 — PRESENTE',
+    period: '2025 — PRESENTE',
     role: 'Desenvolvedor Freelance',
     org: 'Projetos independentes',
     description:
-      'Desenvolvimento de landing pages e aplicações web sob demanda, do design à entrega, para pequenos negócios e projetos pessoais.',
+      'Desenvolvimento de landing pages, aplicações web, sites e sistemas sob demanda, do design à entrega, para pequenos negócios e projetos pessoais.',
     tags: ['React', 'Node.js', 'Tailwind CSS'],
   },
   {
     id: 'projetos-proprios',
-    period: '2023 — PRESENTE',
+    period: '2025 — PRESENTE',
     role: 'Criador Independente',
     org: 'Projetos Próprios',
     description:

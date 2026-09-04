@@ -7,9 +7,9 @@ import { fadeUp, viewportOnce } from '@/animations/variants'
 import { siteConfig } from '@/data/config'
 
 const links = [
-  { label: 'Email', value: siteConfig.email, href: `mailto:${siteConfig.email}`, icon: Mail },
-  { label: 'LinkedIn', value: 'in/antoniolucas', href: siteConfig.linkedin, icon: Briefcase },
-  { label: 'GitHub', value: '@antoniolucas', href: siteConfig.github, icon: Code2 },
+  { label: 'Email', value: 'antoniilucasofc@gmail.com', href: 'mailto:antoniilucasofc@gmail.com', icon: Mail },
+  { label: 'LinkedIn', value: 'in/antonio lucas', href: 'https://www.linkedin.com/in/antônio-lucas/', icon: Briefcase },
+  { label: 'GitHub', value: '@antoniilucas', href: 'https://github.com/antoniilucas', icon: Code2 },
 ]
 
 export default function Contact() {
