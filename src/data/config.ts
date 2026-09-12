@@ -5,7 +5,7 @@ export const siteConfig = {
   email: 'antoniilucasofc@gmail.com',
   github: 'https://github.com/antoniilucas',
   linkedin: 'https://linkedin.com/in/antônio-lucas',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/curriculo.pdf',
   location: 'Brasil',
   year: new Date().getFullYear(),
 }

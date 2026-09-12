@@ -24,7 +24,7 @@ export const experience: ExperienceItem[] = [
     org: 'Projetos independentes',
     description:
       'Desenvolvimento de landing pages, aplicações web, sites e sistemas sob demanda, do design à entrega, para pequenos negócios e projetos pessoais.',
-    tags: ['React', 'Node.js', 'Tailwind CSS'],
+    tags: ['React', 'Node.js', 'Tailwind CSS', 'JavaScript', 'TypeScript', 'MySQL', 'MongoDB', 'Docker'],
   },
   {
     id: 'projetos-proprios',
@@ -33,6 +33,6 @@ export const experience: ExperienceItem[] = [
     org: 'Projetos Próprios',
     description:
       'Construção de SaaS e aplicações completas para estudo aprofundado de arquitetura, APIs e boas práticas de engenharia.',
-    tags: ['React', 'Node.js', 'Laravel', 'PostgreSQL'],
+    tags: ['React', 'Node.js', 'TypeScript', 'MongoDB', 'Prisma', 'PostgreSQL'],
   },
 ]
