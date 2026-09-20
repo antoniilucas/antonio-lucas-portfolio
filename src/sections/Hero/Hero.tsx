@@ -3,7 +3,7 @@ import { ArrowRight, Code2, Briefcase, Mail } from 'lucide-react'
 import GlitchText from '@/components/GlitchText/GlitchText'
 import MagneticButton from '@/components/MagneticButton/MagneticButton'
 import { staggerContainer, fadeUp } from '@/animations/variants'
-import { siteConfig } from '@/data/config'
+// import { siteConfig } from '@/data/config'
 import { usePrefersReducedMotion } from '@/hooks/useMediaQuery'
 
 export default function Hero() {
